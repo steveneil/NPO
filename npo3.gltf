@@ -1,0 +1,258 @@
+{
+    "asset": {
+        "copyright": "2019 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 0897bb3786688dd8ac0e16e7ca439aa83b5dca11",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 6156,
+            "type": "VEC3",
+            "max": [
+                1.6395995616912842,
+                0.509960949420929,
+                0.0
+            ],
+            "min": [
+                0.05263671651482582,
+                -0.008886718191206456,
+                -0.2800000011920929
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 6156,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 6156,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 3084,
+            "type": "SCALAR",
+            "max": [
+                6155.0
+            ],
+            "min": [
+                5.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5125,
+            "count": 1536,
+            "type": "SCALAR",
+            "max": [
+                6142.0
+            ],
+            "min": [
+                6.0
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5125,
+            "count": 1536,
+            "type": "SCALAR",
+            "max": [
+                4117.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 73872,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 73872,
+            "byteLength": 73872,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 147744,
+            "byteLength": 49248,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 196992,
+            "byteLength": 12336,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 209328,
+            "byteLength": 6144,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 215472,
+            "byteLength": 6144,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 221616,
+            "uri": "npo3_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.00003385884701856412,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6307569742202759,
+                    0.6307569742202759,
+                    0.6307569742202759,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.4000000059604645
+            },
+            "name": "Default Material"
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.16513222455978394,
+                    0.7083759307861328,
+                    0.7681512832641602,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.4000000059604645
+            },
+            "name": "Default Material 2"
+        }
+    ],
+    "meshes": [
+        {
+            "name": "TextMesh#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                },
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 4,
+                    "material": 1
+                },
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 5,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                3.4183952808380129,
+                1.4058870077133179,
+                3.4183874130249025
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                -0.5246095061302185,
+                0.2800000011920929,
+                0.24955932796001435
+            ],
+            "rotation": [
+                -0.7071067690849304,
+                0.0,
+                0.0,
+                0.7071067690849304
+            ],
+            "scale": [
+                0.9999999403953552,
+                1.0,
+                1.0
+            ],
+            "mesh": 0,
+            "name": "Text"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0,
+    "extensions": {
+        "KHR_xmp": {
+            "packets": [
+                {
+                    "dc:date": "2020-05-20T17:38:42.394+10:00",
+                    "dc:format": "model/gltf+json",
+                    "dc:title": "npo3.dn",
+                    "xmp:CreatorTool": "Adobe Dimension"
+                }
+            ]
+        }
+    },
+    "extensionsUsed": [
+        "KHR_xmp"
+    ]
+}
