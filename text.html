@@ -24,7 +24,7 @@
 		<a-plane color="white" rotation="-90 0 0" position="0 -0.25 0" width="3" material="transparent: true; opacity: 0.90"></a-plane>
 
 		<!-- for more properties, see https://github.com/aframevr/aframe/blob/master/docs/components/text.md -->
-		<a-text value="Hello, world!" font="fonts/Exo2Bold.fnt" color="red" rotation="-90 0 0" align="center" scale="2 2 2"></a-text>
+		<a-text value="NPD!" font="fonts/Exo2Bold.fnt" color="red" rotation="-90 0 0" align="center" scale="2 2 2"></a-text>
 		
 		<!-- positioning a second copy to attempt drop-shadow effect; need to adjust position to avoid z-fighting -->
 		<!-- <a-text value="Hello, world!" font="fonts/Exo2Bold.fnt" color="black" rotation="-90 0 0" align="center" scale="2 2 2" position="0.01 -0.2 0"></a-text> -->
@@ -35,7 +35,8 @@
 	</a-marker>
 
 	<!-- 3D text -->
-	<a-marker type="pattern" url="data/hiro.patt">
+	<a-marker id="pattern" type='barcode' value='7'>
+	
 
 		<!-- 
 			using aframe-text-geometry component
