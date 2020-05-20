@@ -17,7 +17,7 @@
 <a-scene embedded vr-mode-ui="enabled: false;" arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
 
 	<a-assets>
-		<a-asset-item id="exoFont" src="fonts/exoBlack.typeface.json"></a-asset-item>
+		<a-asset-item id="Arial" src="fonts/Arial Rounded MT Bold_Regular.json"></a-asset-item>
 		<img id="pixels" src="images/pixels.png" />
 	</a-assets>
 
@@ -47,8 +47,8 @@
 			alignment (centering) may be tricky; try calculating bounding box and repositioning.
 			for more info, see: https://www.npmjs.com/package/aframe-text-geometry-component
 		 -->
-		<a-entity text-geometry="value: NPD; font: #exoFont;"
-			material="color: red; src: #pixels; repeat: 0.5 0.5; bevelEnabled: true; bevelSize: 0.05; bevelThickness: 0.05; size: 0.03; height: 0.5; curveSegments: 12;"
+		<a-entity text-geometry="value: NPD; font: #Arial;"
+			material="color: #33D5FF; src: #pixels; repeat: 0.5 0.5; bevelEnabled: true; bevelSize: 0.05; bevelThickness: 0.05; size: 0.03; height: 0.5; curveSegments: 12;"
 			rotation="-90 0 0">
 		
 
