@@ -13,13 +13,13 @@
         <!-- we add detectionMode and matrixCodeType to tell AR.js to recognize barcode markers -->
         <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
 <a-assets>
-            <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/steveneil/NPO/master/npo.gltf"></a-asset-item>
+            <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/steveneil/NPO/master/scene.gltf"></a-asset-item>
         </a-assets>
           
  <a-marker id="animated-marker" type='barcode' value='7'>
             <a-entity
                 gltf-model="#animated-asset"
-                scale="2">
+                scale="1">
             </a-entity>
         </a-marker>
             
